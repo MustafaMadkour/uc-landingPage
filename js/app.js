@@ -26,7 +26,7 @@ for (var i = 0; i < navLinks.length; i++) {
         current[0].className = current[0].className.replace("active", "");
       }
   
-      // Add the active class to the current/clicked button
+      // Add the active class to the current/clicked link
       this.className += "active";
     });
   } 
